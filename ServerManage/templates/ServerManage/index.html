@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h1>All Machine</h1>
+    {% if all_machine_list %}
+        <ul>
+        {% for machine in all_machine_list %}  			
+  			<p>机器名：{{machine.Server_Name}} </p>     
+			<p>IP地址：{{machine.Server_IP}}</p>
+			<p>创建时间：{{machine.create_date}}</p>
+        	<p>状态：{{machine.state}}</p>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No script are available.</p>
+    {% endif %}
+</body>
+</html>

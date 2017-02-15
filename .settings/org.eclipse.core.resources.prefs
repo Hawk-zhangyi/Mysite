@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//ServerManage/migrations/0001_initial.py=utf-8
+encoding//ServerManage/migrations/0002_auto_20170215_1220.py=utf-8
+encoding//blog/migrations/0001_initial.py=utf-8
+encoding//polls/migrations/0001_initial.py=utf-8
+encoding//polls/templates/polls/detail.html=UTF-8
+encoding//polls/templates/polls/index.html=UTF-8
+encoding//polls/urls.py=UTF-8
+encoding/<project>=UTF-8
